@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "pm2-runtime start src/index.js --watch",
+    "start": "pm2-runtime start index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

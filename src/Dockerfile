@@ -2,12 +2,12 @@ FROM node:20.9.0
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY . .
 
 RUN npm install
 
-ENV TZ=Asia/Seoul 
+ENV TZ=Asia/Seoul
 
-COPY . .
+EXPOSE 80 
 
 CMD ["npm", "start"]
