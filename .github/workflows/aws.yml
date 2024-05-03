@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  ECR_REGISTRY: 339712779317.dkr.ecr.ap-northeast-2.amazonaws.com/demo
+  ECR_REGISTRY: 339712779317.dkr.ecr.ap-northeast-2.amazonaws.com
   ECR_REPOSITORY: demo
     
 jobs:
